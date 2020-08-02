@@ -3,7 +3,8 @@ public class EmployeeAbsentorPresent
 	{
 	  public static void main(String[] args)
 	   {
-	   int fullTime=1;
+	   int fullTime=1;    
+	          
 	   double empcheck=Math.floor(Math.random()*10)%2;
 	   if (empcheck == fullTime)
 	     {
